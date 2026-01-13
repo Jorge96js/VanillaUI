@@ -1,0 +1,74 @@
+[
+    {
+        "Localidad": "Sanfra Leandro N. Alem",
+        "Direccion": "Av. Martín de Irigoyen 150",
+        "Telefono": "2364416611",
+        "Horarios": "14:00 hs a 1:00 hs",
+        "Delivery": "No disponible",
+        "Foto": "https://heladossanfra.com.ar/heladerias/Sanfra-alem.jpg" 
+    },   
+    {
+        "Localidad": "Sanfra Teodelina",
+        "Direccion": "Fermin Viruleg 417",
+        "Telefono": "3462570580",
+        "Horarios": "Lunes a Viernes de 11:00 hs a 01:00 hs - Sabados de 11:00 a 01:30 hs - Domingo de 10:30 hs a 01 hs",
+        "Delivery": "Disponible",
+        "Foto": "https://heladossanfra.com.ar/heladerias/Sanfra-teodelina.jpg" 
+    },   
+    {
+        "Localidad": "Sanfra Hughes, Santa Fe",
+        "Direccion": "Fermin Viruleg 417",
+        "Telefono": "2473-416950",
+        "Horarios": "Lunes a Jueves de 11:00 hs a 00:30hs - Viernes y Sábados de 11:00 a 01:30hs - Domingo de 10:30hs a 01:00hs ",
+        "Delivery": "No disponible",
+        "Foto": "https://heladossanfra.com.ar/heladerias/Sanfra-Hughes.jpg" 
+    },
+    {
+        "Localidad": "Sanfra en Facuando Quiroga, 9 de Julio",
+        "Direccion": "Esquina, La Rioja y Bs. As. S/N",
+        "Telefono": "2317506209",
+        "Horarios": "De lunes a jueves: 13:30hs a 23:00hs - Viernes y Sábados: 13:30 a 02:00hs - Domingos : 11:00hs a 01:00hs",
+        "Delivery": "Disponible",
+        "Foto": "https://heladossanfra.com.ar/heladerias/Sanfra-Facuando_Quiroga.jpg" 
+    },
+    {
+        "Localidad": "Sanfra General Villegas",
+        "Direccion": "Moreno 685",
+        "Telefono": "3388571825",
+        "Horarios": "De 11:00 a 01:30 de lunes a Domingos",
+        "Delivery": "No disponible",
+        "Foto": "https://heladossanfra.com.ar/heladerias/Sanfra-General%20Villegas.jpg" 
+    },
+    {
+        "Localidad": "Sanfra Elortondo Santa Fe",
+        "Direccion": "España e Italia",
+        "Telefono": "3462600382",
+        "Horarios": "11:00 a 00:00",
+        "Delivery": "Disponible",
+        "Foto": "https://heladossanfra.com.ar/heladerias/Sanfra-Elortondo.jpg" 
+    },
+    {
+        "Localidad": "Sanfra Germania",
+        "Direccion": "Iguazu 280",
+        "Telefono": "2355698848",
+        "Horarios": "10 hs hasta 12:30",
+        "Delivery": "No disponible",
+        "Foto": "https://heladossanfra.com.ar/heladerias/Sanfra-Germania.jpg" 
+    },
+    {
+        "Localidad": "Sanfra Ferre",
+        "Direccion": "Entre Ríos s/n",
+        "Telefono": "2364705059",
+        "Horarios": "10:00 am a 00:00 hs",
+        "Delivery": "Disponible",
+        "Foto": "https://heladossanfra.com.ar/heladerias/Sanfra-Ferre.jpg" 
+    },
+    {
+        "Localidad": "Sanfra Arribeños",
+        "Direccion": " ",
+        "Telefono": "2364592256",
+        "Horarios": "12:00 am a 01:30 hs",
+        "Delivery": "No disponible",
+        "Foto": "https://heladossanfra.com.ar/heladerias/Sanfra-Arribeños.png" 
+    }
+]
