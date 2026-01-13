@@ -5,15 +5,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Descubrí los mejores helados artesanales en Sanfra Vedia. La franquicia Sanfra ofrece sabores únicos y auténticos, elaborados con calidad y tradición. Helados Sanfra: tu lugar ideal para disfrutar en familia y amigos." />
-        <meta name="keywords" content="helados, Sanfra, Sanfra Vedia, franquicia, helados artesanales" />
+        <meta name="description" content="vanillaUI es un theme enfocado en crear una presencia web para heladerias" />
+        <meta name="keywords" content="helados, VanillaUI,theme, laravel theme, web theme,laravel," />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Helados Sanfra Vedia - Helados artesanales Sanfra" />
-        <meta property="og:description" content="Disfrutá los mejores helados artesanales en Sanfra Vedia. La franquicia Sanfra te acerca calidad y tradición." />
-        <meta property="og:image" content="https://heladossanfra.com.ar/imagenes/graph.png" />
-        <meta property="og:url" content="https://heladossanfra.com.ar" />
+        <meta property="og:title" content="VanillaUI - Theme Laravel" />
+        <meta property="og:description" content="vanillaUI es un theme enfocado en crear una presencia web para heladerias" />>
         <meta property="og:type" content="website" />
-        <title>Helados Sanfra Vedia</title>
+        <title>VanillaUI - Laravel Theme</title>
 
         <link rel="icon" href="/favicon.ico" sizes="any">
         <link rel="icon" href="/favicon.svg" type="image/svg+xml">

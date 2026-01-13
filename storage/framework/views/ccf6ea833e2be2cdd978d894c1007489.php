@@ -116,11 +116,11 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-        <a href="<?php echo e(route('heladerias')); ?>" class="float-right bg-brand-primary hover:bg-[#e76322] uppercase text-white text-center font-bold mx-auto px-5 py-2 rounded-md font-secondary">Ver Todas</a>
+        <a href="<?php echo e(route('heladerias')); ?>" class="float-right bg-brand-primary hover:bg-brand-primary/ uppercase text-white text-center font-bold mx-auto px-5 py-2 rounded-md font-secondary">Ver Todas</a>
     </section>
 
     <a href="<?php echo e(route('heladerias')); ?>"
-    class="mt-60 rounded-sm shadow-xl sm:hidden bg-brand-primary hover:bg-[#e76322] uppercase text-white flex justify-center items-center text-center font-bold mx-auto w-80 h-20 ">
+    class="mt-60 rounded-sm shadow-xl sm:hidden bg-brand-primary hover:bg-brand-primary/ uppercase text-white flex justify-center items-center text-center font-bold mx-auto w-80 h-20 ">
         <p class="text-shadow-md text-sm font-secondary">Busca tu heladeria mas cercana</p>
     </a>
 
