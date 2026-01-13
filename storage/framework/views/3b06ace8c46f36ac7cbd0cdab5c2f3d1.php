@@ -205,6 +205,9 @@
                         <p class="relative text-white mt-5 text-xs md:text-base">
                             © <?php echo e(date('Y')); ?> Heladeria. Todos los derechos reservados.
                         </p>
+                        <p class="relative text-white text-xs md:text-xs font-secondary" id="developed">
+                            Desarrollado por <a href="https://binaraweb.com.ar"><strong>Binaraweb</strong></a>
+                        </p>
                     </div>
 
             </footer>
