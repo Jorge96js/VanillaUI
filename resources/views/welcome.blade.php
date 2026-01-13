@@ -33,15 +33,17 @@
 <main>
 
     <section class="mt-5 pt-20" id="productos">
-        <h3 class="text-center text-2xl md:text-3xl font-light mb-3 text-slate-800">
-            Refrescante y dulce
-        </h3>
-        <h2 class="text-center text-3xl md:text-7xl mx-auto md:w-2xl font-bold mb-3 text-slate-800">
-            Refrescate con <span class="text-brand-primary">cada cucharada</span>
-        </h2>
-        <p class="text-center text-2xs w-md mx-auto text-gray-400">
-            Cada visita a VanillaUI es una pausa deliciosa en tu día. Cremoso, suave y lleno de sabor.
-        </p>
+        <div class="flex flex-col justify-center items-center">
+            <h3 class="text-center text-2xl md:text-3xl font-light mb-3 text-slate-800">
+                Refrescante y dulce
+            </h3>
+            <h2 class="text-center text-3xl md:text-7xl mx-auto md:w-2xl font-bold mb-5 text-slate-800">
+                Refrescate con <span class="text-brand-primary">cada cucharada</span>
+            </h2>
+            <p class="text-center text-sm md:text-xl w-3xs md:w-md mx-auto text-gray-400">
+                Cada visita a VanillaUI es una pausa deliciosa en tu día. Cremoso, suave y lleno de sabor.
+            </p>
+        </div>
 
         <!--Componente Productos-->
         <x-productos />
@@ -137,8 +139,8 @@
             </div>
         </div>
 
-        <div class="mt-20 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-5  font-secondary">
-            <div class="bg-gray-50 p-8 border-l-4 border-brand-primary shadow-sm" data-aos="fade-right">
+        <div class="mt-20 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-0 md:px-5  font-secondary">
+            <div class="bg-gray-50 p-8 border-l-4 border-brand-primary shadow-sm" data-aos="fade-up">
                 <h3 class="text-brand-primary font-bold text-xl mb-3 flex items-center">
                     <span class="mr-2">💳</span> {{ config('landing.inv_titulo') }}
                 </h3>
@@ -147,7 +149,7 @@
                 </p>
             </div>
 
-            <div class="bg-slate-50 p-8 border-l-4 border-brand-primary shadow-sm" data-aos="fade-left">
+            <div class="bg-slate-50 p-8 border-l-4 border-brand-primary shadow-sm" data-aos="fade-up">
                     <h3 class="text-slate-800 font-bold text-xl mb-3 flex items-center">
                         <span class="mr-2">🚚</span> {{ config('landing.log_titulo') }}
                     </h3>
@@ -185,11 +187,11 @@
 
         <div class="flex flex-col justify-start gap-5 w-8/12">
             <h2 class="text-left  text-3xl md:text-5xl font-bold text-shadow-2xs text-brand-primary">¿Te interesa ser parte de VanillaUI?  </h2>
-            <h3 class="text-left font-secondary text-lg md:text-md w-sm  md:w-full mb-10 text-shadow-2xs text-neutral-600">Ya sea que quieras disfrutar nuestros sabores, hacer un pedido especial o sumarte como franquiciado, estamos listos para escucharte.</h3>
+            <h3 class="text-left font-secondary text-lg md:text-md w-3xs  md:w-full mb-10 text-shadow-2xs text-neutral-600">Ya sea que quieras disfrutar nuestros sabores, hacer un pedido especial o sumarte como franquiciado, estamos listos para escucharte.</h3>
             <div class="flex flex-col gap-5 items-center">
                 <a href="#" class="font-secondary text-center text-white font-bold mx-auto rounded-2xl bg-green-500 hover:bg-green-400 transition-all px-10 py-5 hover:transition hover:scale-95 w-full">Contactar por WhatsApp</a>
 
-                <div class="flex w-full justify-between gap-5">
+                <div class="flex flex-col lg:flex-row w-full justify-between gap-5">
                     <a href="#" class="px-10 w-full py-3 text-center rounded-lg bg-white text-brand-primary font-bold  font-secondary border border-brand-primary/15 flex items-center justify-center gap-3"><x-icons.location_svg /> Encuentranos</a>
                     <a href="#" class="px-10 w-full py-3 text-center rounded-lg bg-white text-brand-primary font-bold  font-secondary border border-brand-primary/15 flex items-center justify-center gap-3"><x-icons.phone_svg /> Llamanos</a>
                 </div>
