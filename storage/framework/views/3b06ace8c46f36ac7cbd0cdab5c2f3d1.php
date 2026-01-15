@@ -19,11 +19,6 @@
 
         <?php echo app('Illuminate\Foundation\Vite')(['resources/css/app.css', 'resources/css/styles.css', 'resources/js/app.js']); ?>
 
-        <?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><!--[if BLOCK]><![endif]--><?php endif; ?><?php if(request()->is('/')): ?>
-            <?php echo app('Illuminate\Foundation\Vite')(['resources/js/heladerias.js']); ?>
-        <?php endif; ?><?php if(\Livewire\Mechanisms\ExtendBlade\ExtendBlade::isRenderingLivewireComponent()): ?><!--[if ENDBLOCK]><![endif]--><?php endif; ?>
-
-
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />

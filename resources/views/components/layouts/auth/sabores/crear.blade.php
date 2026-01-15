@@ -2,6 +2,6 @@
 
     <h1 class="text-3xl font-bold text-neutral-800 dark:text-white">{{ $title }}</h1>
 
-    <livewire:AgregarTorta  />
+    <livewire:AgregarSabor  />
 
 </x-layouts.app>
