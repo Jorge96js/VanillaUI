@@ -111,7 +111,7 @@ class AdminController extends Controller
     //Agregar sabor
     public function saboresCrear(){
         $sabores = Sabores::all();
-        $title = "Sabores Sanfra";
+        $title = "Sabores VanillaUI";
 
         return view('components.layouts.auth.sabores.crear', [
             'sabores' => $sabores,
@@ -158,7 +158,7 @@ class AdminController extends Controller
 
     public function tortasCrear(){
         $tortas = Torta::all();
-        $title = "Tortas Sanfra";
+        $title = "Tortas VanillaUI";
 
         return view('components.layouts.auth.tortas.crear', [
             'tortas' => $tortas,
@@ -204,7 +204,7 @@ class AdminController extends Controller
     }
     public function postresCrear(){
         $postres = Postre::all();
-        $title = "Postres Sanfra";
+        $title = "Postres VanillaUI";
 
 
         return view('components.layouts.auth.postres.crear',[
